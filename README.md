@@ -1,0 +1,2 @@
+# TecnoMixRecaudacion
+Sistema de recaudaciones
