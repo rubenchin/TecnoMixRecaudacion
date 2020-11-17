@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="ViewModels\" />
     <Folder Include="Servicios\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TecnomixRecaudacion.Dominio\TecnomixRecaudacion.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
