@@ -12,6 +12,7 @@ using TecnoMixRecaudacion.Mvc.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TecnoMixRecaudacion.Infra.Data.Context;
 
 namespace TecnoMixRecaudacion.Mvc
 {
@@ -34,6 +35,11 @@ namespace TecnoMixRecaudacion.Mvc
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<TecnomixRecaudacionDBContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("TecnoMixRecaudacionDBConn"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
