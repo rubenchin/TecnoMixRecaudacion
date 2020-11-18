@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using TecnomixRecaudacion.Dominio.Interfaces;
+using TecnomixRecaudacion.Dominio.Modelos;
+using TecnoMixRecaudacion.Infra.Data.Context;
+
+namespace TecnoMixRecaudacion.Infra.Data.Repositorios
+{
+    public class ZonaRepositorio:IZonaRepositorio
+    {
+        private TecnomixRecaudacionDBContext _ctx;
+
+        public ZonaRepositorio(TecnomixRecaudacionDBContext ctx)
+        {
+            _ctx = ctx;
+        }
+        public IEnumerable<Zona> ObtenerZonas()
+        {
+            return _ctx.Zonas;
+        }
+    }
+}

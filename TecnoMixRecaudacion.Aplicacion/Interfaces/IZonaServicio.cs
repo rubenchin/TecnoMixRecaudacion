@@ -8,6 +8,6 @@ namespace TecnoMixRecaudacion.Aplicacion.Interfaces
 {
     public interface IZonaServicio
     {
-        IEnumerable<ZonaViewModel> ObtenerZonas();
+        ZonaViewModel ObtenerZonas();
     }
 }

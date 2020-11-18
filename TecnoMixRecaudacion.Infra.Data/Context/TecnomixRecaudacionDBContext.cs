@@ -14,5 +14,6 @@ namespace TecnoMixRecaudacion.Infra.Data.Context
         }
 
         public  DbSet<Ficha> Fichas { get; set; }
+        public DbSet<Zona> Zonas { get; set; }
     }
 }
