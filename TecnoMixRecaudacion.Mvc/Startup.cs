@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TecnoMixRecaudacion.Infra.Data.Context;
+using TecnoMixRecaudacion.Infra.IoC;
 
 namespace TecnoMixRecaudacion.Mvc
 {
@@ -40,6 +41,8 @@ namespace TecnoMixRecaudacion.Mvc
             {
                 options.UseSqlServer(Configuration.GetConnectionString("TecnoMixRecaudacionDBConn"));
             });
+
+            RegistroServicios(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,6 +74,11 @@ namespace TecnoMixRecaudacion.Mvc
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+
+        public static void RegistroServicios(IServiceCollection servicios)
+        {
+            ContenedorDependencias.RegistroServicios(servicios);
         }
     }
 }

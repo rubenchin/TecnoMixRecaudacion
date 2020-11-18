@@ -8,4 +8,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TecnoMixRecaudacion.Aplicacion\TecnoMixRecaudacion.Aplicacion.csproj" />
+  </ItemGroup>
+
 </Project>
