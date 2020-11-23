@@ -17,7 +17,9 @@ namespace TecnoMixRecaudacion.Infra.Data.Repositorios
         }
         public IEnumerable<Zona> ObtenerZonas()
         {
-            return _ctx.Zonas;
+            string proveedor= _ctx.Database.ProviderName;
+            bool puedeConnect = _ctx.Database.CanConnect();
+            return _ctx.Zona;
         }
     }
 }

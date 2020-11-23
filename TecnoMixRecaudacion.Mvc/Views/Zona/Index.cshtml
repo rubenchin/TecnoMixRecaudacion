@@ -1,0 +1,15 @@
+﻿@model TecnoMixRecaudacion.Aplicacion.ViewModels.ZonaViewModel
+<div class="container body-content">
+    <div class="row zona-content">
+        @foreach (var zona in Model.Zonas)
+        {
+            <span>@zona.Nombre</span>
+            <span>@zona.Descripcion</span>
+            <div class="zona-container">
+
+
+            </div>
+        }
+
+    </div>
+</div>

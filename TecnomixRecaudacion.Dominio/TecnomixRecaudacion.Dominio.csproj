@@ -4,4 +4,25 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Modelos\CierreCaja.cs" />
+    <Compile Remove="Modelos\Cobro.cs" />
+    <Compile Remove="Modelos\CobroMensualidad.cs" />
+    <Compile Remove="Modelos\CompromisoPago.cs" />
+    <Compile Remove="Modelos\CorteReconexion.cs" />
+    <Compile Remove="Modelos\Ficha.cs" />
+    <Compile Remove="Modelos\Gasto.cs" />
+    <Compile Remove="Modelos\Instalacion.cs" />
+    <Compile Remove="Modelos\MaterialInstalacion.cs" />
+    <Compile Remove="Modelos\Mensualidad.cs" />
+    <Compile Remove="Modelos\Oficina.cs" />
+    <Compile Remove="Modelos\OrdenTrabajo.cs" />
+    <Compile Remove="Modelos\OtroIngreso.cs" />
+    <Compile Remove="Modelos\Retencion.cs" />
+    <Compile Remove="Modelos\Servicio.cs" />
+    <Compile Remove="Modelos\TurnoOrdenTrabajo.cs" />
+    <Compile Remove="Modelos\Usuario.cs" />
+    <Compile Remove="Modelos\ValorAdicional.cs" />
+  </ItemGroup>
+
 </Project>
