@@ -9,5 +9,6 @@ namespace TecnoMixRecaudacion.Aplicacion.Interfaces
     public interface IZonaServicio
     {
         ZonaViewModel ObtenerZonas();
+        void Crear(ZonaViewModel zonaViewModel);
     }
 }

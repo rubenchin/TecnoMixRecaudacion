@@ -7,6 +7,8 @@ namespace TecnoMixRecaudacion.Aplicacion.ViewModels
 {
     public class ZonaViewModel
     {
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
         public IEnumerable<Zona> Zonas { get; set; }
 
     }
