@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TecnomixRecaudacion.Dominio.Modelos;
+using TecnoMixRecaudacion.Dominio.Modelos;
 
 namespace TecnoMixRecaudacion.Aplicacion.ViewModels
 {

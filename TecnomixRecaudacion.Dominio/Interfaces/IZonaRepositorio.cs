@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TecnomixRecaudacion.Dominio.Modelos;
+using TecnoMixRecaudacion.Dominio.Modelos;
 
-namespace TecnomixRecaudacion.Dominio.Interfaces
+namespace TecnoMixRecaudacion.Dominio.Interfaces
 {
     public interface IZonaRepositorio
     {

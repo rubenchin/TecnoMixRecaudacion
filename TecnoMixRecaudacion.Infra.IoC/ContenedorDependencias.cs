@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Extensions.DependencyInjection;
 using TecnoMixRecaudacion.Aplicacion.Interfaces;
 using TecnoMixRecaudacion.Aplicacion.Servicios;
-using TecnomixRecaudacion.Dominio.Interfaces;
+using TecnoMixRecaudacion.Dominio.Interfaces;
 using TecnoMixRecaudacion.Infra.Data.Repositorios;
 
 namespace TecnoMixRecaudacion.Infra.IoC

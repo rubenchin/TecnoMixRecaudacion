@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using TecnoMixRecaudacion.Aplicacion.Interfaces;
 using TecnoMixRecaudacion.Aplicacion.ViewModels;
-using TecnomixRecaudacion.Dominio.Interfaces;
+using TecnoMixRecaudacion.Dominio.Interfaces;
 
 namespace TecnoMixRecaudacion.Aplicacion.Servicios
 {

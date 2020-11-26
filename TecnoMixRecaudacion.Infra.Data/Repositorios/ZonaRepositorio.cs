@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TecnomixRecaudacion.Dominio.Interfaces;
-using TecnomixRecaudacion.Dominio.Modelos;
+using TecnoMixRecaudacion.Dominio.Interfaces;
+using TecnoMixRecaudacion.Dominio.Modelos;
 using TecnoMixRecaudacion.Infra.Data.Context;
 
 namespace TecnoMixRecaudacion.Infra.Data.Repositorios

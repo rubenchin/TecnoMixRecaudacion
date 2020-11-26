@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TecnomixRecaudacion.Dominio.Modelos
+namespace TecnoMixRecaudacion.Dominio.Modelos
 {
    // [Table("Zona")]
     public class Zona
