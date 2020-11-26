@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnomixRecaudacion.Dominio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoMixRecaudacion.Infra.Data", "TecnoMixRecaudacion.Infra.Data\TecnoMixRecaudacion.Infra.Data.csproj", "{41433047-B7E9-4F13-8A68-6EB7C7DA1772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoMixRecaudacion.Aplicacion", "TecnoMixRecaudacion.Aplicacion\TecnoMixRecaudacion.Aplicacion.csproj", "{CF6E8C6E-E826-462D-A995-CFD2DE7ACCA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoMixRecaudacion.Aplicacion", "TecnoMixRecaudacion.Aplicacion\TecnoMixRecaudacion.Aplicacion.csproj", "{CF6E8C6E-E826-462D-A995-CFD2DE7ACCA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoMixRecaudacion.Infra.IoC", "TecnoMixRecaudacion.Infra.IoC\TecnoMixRecaudacion.Infra.IoC.csproj", "{737E058F-8B01-4EF6-A313-D7FE8EEC396C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoMixRecaudacion.Infra.IoC", "TecnoMixRecaudacion.Infra.IoC\TecnoMixRecaudacion.Infra.IoC.csproj", "{737E058F-8B01-4EF6-A313-D7FE8EEC396C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{0B7811D9-52D2-441E-803C-2E4F047F5016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{5847346A-25DF-46B7-8CE7-C98061BBCDBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
