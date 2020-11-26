@@ -9,7 +9,7 @@ namespace TecnoMixRecaudacion.Dominio.Interfaces
     {
         IEnumerable<Zona> ObtenerZonas();
 
-
+        void Add(Zona zona);
 
     }
 }

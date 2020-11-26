@@ -15,11 +15,20 @@ namespace TecnoMixRecaudacion.Infra.Data.Repositorios
         {
             _ctx = ctx;
         }
+
+        public void Add(Zona zona)
+        {
+            _ctx.Zona.Add(zona);
+            _ctx.SaveChanges();
+        }
+
         public IEnumerable<Zona> ObtenerZonas()
         {
             string proveedor= _ctx.Database.ProviderName;
             bool puedeConnect = _ctx.Database.CanConnect();
             return _ctx.Zona;
         }
+
+
     }
 }

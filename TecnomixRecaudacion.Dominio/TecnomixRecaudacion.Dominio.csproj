@@ -25,4 +25,8 @@
     <Compile Remove="Modelos\ValorAdicional.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TecnomixRecaudacion.Dominio.Core\TecnoMixRecaudacion.Dominio.Core.csproj" />
+  </ItemGroup>
+
 </Project>

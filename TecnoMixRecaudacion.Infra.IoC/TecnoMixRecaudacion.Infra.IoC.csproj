@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TecnoMix.Infra.Bus\TecnoMixRecaudacion.Infra.Bus.csproj" />
     <ProjectReference Include="..\TecnoMixRecaudacion.Aplicacion\TecnoMixRecaudacion.Aplicacion.csproj" />
     <ProjectReference Include="..\TecnoMixRecaudacion.Infra.Data\TecnoMixRecaudacion.Infra.Data.csproj" />
   </ItemGroup>

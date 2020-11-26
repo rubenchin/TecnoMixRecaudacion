@@ -17,7 +17,6 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\TecnoMixRecaudacion.Infra.Data\TecnoMixRecaudacion.Infra.Data.csproj" />
     <ProjectReference Include="..\TecnoMixRecaudacion.Infra.IoC\TecnoMixRecaudacion.Infra.IoC.csproj" />
   </ItemGroup>
 
