@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoMixRecaudacion.Infra.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnoMixRecaudacion.Dominio.Core", "TecnomixRecaudacion.Dominio.Core\TecnoMixRecaudacion.Dominio.Core.csproj", "{C886073C-E8D5-4FA9-B662-A042E1730873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoMixRecaudacion.Api", "TecnoMixRecaudacion.Api\TecnoMixRecaudacion.Api.csproj", "{05EA54CE-4F3E-43D1-9B58-1BF4326413B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{C886073C-E8D5-4FA9-B662-A042E1730873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C886073C-E8D5-4FA9-B662-A042E1730873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C886073C-E8D5-4FA9-B662-A042E1730873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EA54CE-4F3E-43D1-9B58-1BF4326413B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EA54CE-4F3E-43D1-9B58-1BF4326413B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EA54CE-4F3E-43D1-9B58-1BF4326413B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EA54CE-4F3E-43D1-9B58-1BF4326413B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{737E058F-8B01-4EF6-A313-D7FE8EEC396C} = {FA08977A-DAEE-4586-986C-5748C748FBE9}
 		{3877C0F4-F0CF-4661-BA43-88C237763A47} = {0B7811D9-52D2-441E-803C-2E4F047F5016}
 		{C886073C-E8D5-4FA9-B662-A042E1730873} = {706A92EA-B388-4439-872D-61FB4A576C81}
+		{05EA54CE-4F3E-43D1-9B58-1BF4326413B4} = {5847346A-25DF-46B7-8CE7-C98061BBCDBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55EDB055-F263-4376-83C5-9491B5B0AA61}
